@@ -8,7 +8,7 @@ This document describes the structure of this Accessible Digital Textbook (ADT) 
 
 - **Source language**: `sw`
 - **Available languages in this bundle**: `sw-TZ`
-- **Total pages**: 175
+- **Total pages**: 176
 - **Glossary**: yes
 
 ## Quick Overview

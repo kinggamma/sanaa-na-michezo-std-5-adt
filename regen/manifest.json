@@ -4618,7 +4618,8 @@
         "pg112_n0045_easy_read": "ab50906fac1ac2a4e83feda7e1d049c0f3bb7459ac360f54af39843c20e02b16",
         "pg112_n0025_easy_read": "514235bbfd68150bdd572f6ae3da555cf9e1069cfb88adaa5108ea23f242cf75",
         "pg112_n0047_easy_read": "196c519738200029b0d3b3158d99be20a964e0f513c2f5c5185f5718407acba2",
-        "pg112_n0011_easy_read": "4e343e159f2d2b06fdb7158b3efae6e7c13219cc4be3954739727138c3c393b9"
+        "pg112_n0011_easy_read": "4e343e159f2d2b06fdb7158b3efae6e7c13219cc4be3954739727138c3c393b9",
+        "pg001_page": "7870251ae5ee395c792866065de2199c31b09822659732c6b351bba40a3744d1"
       },
       "entrySettings": {
         "pg001_n0003": {
@@ -36885,6 +36886,13 @@
           "format": "wav"
         },
         "pg112_n0011_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg001_page": {
           "provider": "gemini",
           "model": "gemini-2.5-flash-preview-tts",
           "voice": "Kore",
@@ -69157,6 +69165,13 @@
           "format": "wav"
         },
         "pg112_n0011_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg001_page": {
           "provider": "gemini",
           "model": "gemini-2.5-flash-preview-tts",
           "voice": "Kore",

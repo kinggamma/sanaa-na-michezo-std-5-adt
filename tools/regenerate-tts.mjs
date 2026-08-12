@@ -89,7 +89,9 @@ function normalizeRegenSpeechText(text) {
     }
     return named ? (NAMED_HTML_ENTITIES[named.toLowerCase()] ?? match) : match
   })
-  return decoded.replace(/\s+/g, " ").trim()
+  // The © symbol gets mangled by TTS (heard as "zero"); read it as the letter C.
+  const withoutCopyright = decoded.replace(/©/g, "C")
+  return withoutCopyright.replace(/\s+/g, " ").trim()
 }
 
 function isSpeakableText(text) {

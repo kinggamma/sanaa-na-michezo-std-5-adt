@@ -62,6 +62,8 @@ const NAMED_HTML_ENTITIES = {
 // Must match normalizeRegenSpeechText in regen-emit.ts. Exported texts can
 // contain rendered MathML, but TTS providers need the visible text, not tags.
 const SW_ORDINAL_WORDS = ["kwanza", "pili", "tatu", "nne", "tano", "sita", "saba", "nane", "tisa", "kumi"]
+const SW_CARDINAL_WORDS = ["moja", "mbili", "tatu", "nne", "tano", "sita", "saba", "nane", "tisa", "kumi"]
+const ROMAN_NUMERAL_VALUES = { i: 1, ii: 2, iii: 3, iv: 4, v: 5, vi: 6, vii: 7, viii: 8, ix: 9, x: 10 }
 function normalizeRegenSpeechText(text) {
   const withoutMarkup = stripEmojis(String(text || "")).replace(/<\/?[A-Za-z][^>]*>/g, " ")
   // Fill-in-the-blank placeholders like "[[blank:item-1]]" must never be spoken as
@@ -73,7 +75,14 @@ function normalizeRegenSpeechText(text) {
   const bareOrdinalMatch = /^(\d{1,2})\.$/.exec(withoutBlanks.trim())
   const ordinalWord = bareOrdinalMatch ? SW_ORDINAL_WORDS[Number(bareOrdinalMatch[1]) - 1] : undefined
   const withoutBareOrdinal = ordinalWord ?? withoutBlanks
-  const decoded = withoutBareOrdinal.replace(HTML_ENTITY_RE, (match, decimal, hex, named) => {
+  // A bare roman numeral list marker like "(i)" or "v" has no context for the TTS
+  // either, and gets mangled trying to sound out "i"/"v" as English letters. Speak
+  // it out explicitly as "Namba ya Kirumi <word>" (Swahili for "Roman numeral <n>").
+  const romanMatch = /^\(?([ivx]+)\)?\.?$/i.exec(withoutBareOrdinal.trim())
+  const romanValue = romanMatch ? ROMAN_NUMERAL_VALUES[romanMatch[1].toLowerCase()] : undefined
+  const romanWord = romanValue ? `Namba ya Kirumi ${SW_CARDINAL_WORDS[romanValue - 1]}` : undefined
+  const withoutRoman = romanWord ?? withoutBareOrdinal
+  const decoded = withoutRoman.replace(HTML_ENTITY_RE, (match, decimal, hex, named) => {
     if (decimal || hex) {
       const codePoint = Number.parseInt(decimal ?? hex, decimal ? 10 : 16)
       return codePoint <= 0x10FFFF ? String.fromCodePoint(codePoint) : match

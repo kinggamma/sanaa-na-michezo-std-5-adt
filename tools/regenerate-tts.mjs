@@ -64,6 +64,15 @@ const NAMED_HTML_ENTITIES = {
 const SW_ORDINAL_WORDS = ["kwanza", "pili", "tatu", "nne", "tano", "sita", "saba", "nane", "tisa", "kumi"]
 const SW_CARDINAL_WORDS = ["moja", "mbili", "tatu", "nne", "tano", "sita", "saba", "nane", "tisa", "kumi"]
 const ROMAN_NUMERAL_VALUES = { i: 1, ii: 2, iii: 3, iv: 4, v: 5, vi: 6, vii: 7, viii: 8, ix: 9, x: 10 }
+// Bare single-letter list markers like "(a)" or "f." get sounded out with Swahili
+// vowel/consonant phonetics by the TTS, which reads badly. Spell the ENGLISH
+// letter name out phonetically instead so it reads as "ay", "bee", "cee", etc.
+const ENGLISH_LETTER_NAMES = {
+  a: "Ei", b: "Bii", c: "Sii", d: "Dii", e: "Ii", f: "Efu", g: "Jii", h: "Echi",
+  i: "Ai", j: "Jei", k: "Kei", l: "Elu", m: "Emu", n: "Enu", o: "Ou", p: "Pii",
+  q: "Kyuu", r: "Aru", s: "Esu", t: "Tii", u: "Yuu", v: "Vii", w: "Dabuluyu",
+  x: "Eksi", y: "Wai", z: "Zedi",
+}
 function normalizeRegenSpeechText(text) {
   const withoutMarkup = stripEmojis(String(text || "")).replace(/<\/?[A-Za-z][^>]*>/g, " ")
   // Fill-in-the-blank placeholders like "[[blank:item-1]]" must never be spoken as
@@ -77,12 +86,17 @@ function normalizeRegenSpeechText(text) {
   const withoutBareOrdinal = ordinalWord ?? withoutBlanks
   // A bare roman numeral list marker like "(i)" or "v" has no context for the TTS
   // either, and gets mangled trying to sound out "i"/"v" as English letters. Speak
-  // it out explicitly as "Namba ya Kirumi <word>" (Swahili for "Roman numeral <n>").
+  // it out as the plain Swahili cardinal word instead (e.g. "(iii)" -> "tatu").
   const romanMatch = /^\(?([ivx]+)\)?\.?$/i.exec(withoutBareOrdinal.trim())
   const romanValue = romanMatch ? ROMAN_NUMERAL_VALUES[romanMatch[1].toLowerCase()] : undefined
-  const romanWord = romanValue ? `Namba ya Kirumi ${SW_CARDINAL_WORDS[romanValue - 1]}` : undefined
+  const romanWord = romanValue ? SW_CARDINAL_WORDS[romanValue - 1] : undefined
   const withoutRoman = romanWord ?? withoutBareOrdinal
-  const decoded = withoutRoman.replace(HTML_ENTITY_RE, (match, decimal, hex, named) => {
+  // A bare single-letter list marker like "(a)" or "f." has the same problem —
+  // speak the English letter name instead of sounding it out with Swahili phonetics.
+  const bareLetterMatch = /^\(?([a-z])\)?\.?$/i.exec(withoutRoman.trim())
+  const letterWord = bareLetterMatch ? ENGLISH_LETTER_NAMES[bareLetterMatch[1].toLowerCase()] : undefined
+  const withoutBareLetter = letterWord ?? withoutRoman
+  const decoded = withoutBareLetter.replace(HTML_ENTITY_RE, (match, decimal, hex, named) => {
     if (decimal || hex) {
       const codePoint = Number.parseInt(decimal ?? hex, decimal ? 10 : 16)
       return codePoint <= 0x10FFFF ? String.fromCodePoint(codePoint) : match

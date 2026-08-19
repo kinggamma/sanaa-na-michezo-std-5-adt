@@ -61,8 +61,11 @@ const NAMED_HTML_ENTITIES = {
 
 // Must match normalizeRegenSpeechText in regen-emit.ts. Exported texts can
 // contain rendered MathML, but TTS providers need the visible text, not tags.
-const SW_ORDINAL_WORDS = ["kwanza", "pili", "tatu", "nne", "tano", "sita", "saba", "nane", "tisa", "kumi"]
-const SW_CARDINAL_WORDS = ["moja", "mbili", "tatu", "nne", "tano", "sita", "saba", "nane", "tisa", "kumi"]
+const SW_CARDINAL_WORDS = [
+  "moja", "mbili", "tatu", "nne", "tano", "sita", "saba", "nane", "tisa", "kumi",
+  "kumi na moja", "kumi na mbili", "kumi na tatu", "kumi na nne", "kumi na tano",
+  "kumi na sita", "kumi na saba", "kumi na nane", "kumi na tisa", "ishirini",
+]
 const ROMAN_NUMERAL_VALUES = { i: 1, ii: 2, iii: 3, iv: 4, v: 5, vi: 6, vii: 7, viii: 8, ix: 9, x: 10 }
 // Bare single-letter list markers like "(a)" or "f." get sounded out with Swahili
 // vowel/consonant phonetics by the TTS, which reads badly. Spell the ENGLISH
@@ -80,9 +83,10 @@ function normalizeRegenSpeechText(text) {
   const withoutBlanks = withoutMarkup.replace(/\[\[blank:[^\]]+\]\]/g, "…")
   // A bare list marker like "1." with nothing else has no context for the TTS to
   // tell it's a list item, so it gets read as a clock time ("saa moja"). Speak the
-  // Swahili ordinal word instead.
+  // plain Swahili cardinal word instead (e.g. "1." -> "moja", not the ordinal "kwanza") —
+  // these are numbered exercise/step items ("hatua", "mazoezi", "kazi"), not rankings.
   const bareOrdinalMatch = /^(\d{1,2})\.$/.exec(withoutBlanks.trim())
-  const ordinalWord = bareOrdinalMatch ? SW_ORDINAL_WORDS[Number(bareOrdinalMatch[1]) - 1] : undefined
+  const ordinalWord = bareOrdinalMatch ? SW_CARDINAL_WORDS[Number(bareOrdinalMatch[1]) - 1] : undefined
   const withoutBareOrdinal = ordinalWord ?? withoutBlanks
   // A bare roman numeral list marker like "(i)" or "v" has no context for the TTS
   // either, and gets mangled trying to sound out "i"/"v" as English letters. Speak
@@ -96,7 +100,15 @@ function normalizeRegenSpeechText(text) {
   const bareLetterMatch = /^\(?([a-z])\)?\.?$/i.exec(withoutRoman.trim())
   const letterWord = bareLetterMatch ? ENGLISH_LETTER_NAMES[bareLetterMatch[1].toLowerCase()] : undefined
   const withoutBareLetter = letterWord ?? withoutRoman
-  const decoded = withoutBareLetter.replace(HTML_ENTITY_RE, (match, decimal, hex, named) => {
+  // A numbered list item like "1. Karatasi safi za rangi..." has the leading
+  // digit marker silently dropped by the TTS instead of being read out loud.
+  // Spell that leading number out as a word so it actually gets voiced.
+  const leadingNumberMatch = /^(\d{1,2})\.\s+(\S.*)$/s.exec(withoutBareLetter.trim())
+  const leadingNumberWord = leadingNumberMatch ? SW_CARDINAL_WORDS[Number(leadingNumberMatch[1]) - 1] : undefined
+  const withoutLeadingNumber = leadingNumberMatch && leadingNumberWord
+    ? `${leadingNumberWord[0].toUpperCase()}${leadingNumberWord.slice(1)}. ${leadingNumberMatch[2]}`
+    : withoutBareLetter
+  const decoded = withoutLeadingNumber.replace(HTML_ENTITY_RE, (match, decimal, hex, named) => {
     if (decimal || hex) {
       const codePoint = Number.parseInt(decimal ?? hex, decimal ? 10 : 16)
       return codePoint <= 0x10FFFF ? String.fromCodePoint(codePoint) : match

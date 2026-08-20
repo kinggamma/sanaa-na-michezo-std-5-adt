@@ -300,7 +300,7 @@
         "pg014_n0020": "6fde9488ceb196299151dc74972bccec410c125f8eca1f30fb9746619216da2a",
         "pg014_n0034": "b2c55fc6b76cdf4b90045897fbe0af2bc8e4f13adddbd9d3e7c3237ec8d54620",
         "pg012_n0032": "0177cdf17b7608391c30a33e281b34afdd30b28cd511447a8157e3198058c583",
-        "pg012_n0030": "03a92c052fea23ce211096dbd59d3c0b7188ad128fb53458b48f08cae7762d58",
+        "pg012_n0030": "a3a116228f2ab72d90d7e2f441238afd7f9e72f95db3f51268664272f2be24a7",
         "pg014_n0003": "00b86a5e7490fc5cd0583526a2923ff19765ea75303100f6cf1793da87cfb311",
         "pg014_n0046": "c53ec50e9dfa525df4891c91745a956ed24880d375c13934090fac7df60641f9",
         "pg013_n0008": "3a4c9b27419a7264af75510bb1e0475f092eb61bbf0ade3dd068217af1745dc9",
@@ -308,7 +308,7 @@
         "pg013_n0016": "6acaa42391b6829e57ade9a68573024a78afc1295001a5af1a6044a3bb95503b",
         "pg012_n0014": "58c249dc089b99cf92d9f4ec795ce4c2a29fa437df0459d77209be6ff38b04b6",
         "pg013_n0014": "f42a3f40c622015d3198a4712d29f2dc9ab2a3047e2d235313a96088a4ae6c50",
-        "pg012_n0033": "5ab8b026bb59c1d1f17dc1300de0ef315bf3dda75e9b67c6fdce08aff25534c6",
+        "pg012_n0033": "2d2cf9e34f3062e330793dbf176fce724913af516e0c610940aa531848dabf3b",
         "pg013_n0012": "cf20909c99e91056a14c1e08534527b5fac899a29a235a4d91f091fbc1bdcc2c",
         "pg014_n0015": "5f4b9898944eb8076a9b55f0ce38b9df18098d6d3928f6a5197a8ef72f18fae8",
         "pg014_n0041": "22c7aa013c9cf1cf15ca64547ac41a4b1b2d8ce67cb28f7ae342ce9860d54b1d",
@@ -320,7 +320,7 @@
         "pg014_n0021": "821ce81012c7e6e94476cc3536e44cdec325ee0bdb7eeb13ce39822e79843ae9",
         "pg013_n0005": "ff0134d0f648d36f801c251a975d8e1a1f3a693018bd0fe2e7fe0519f916a327",
         "pg015_n0010": "8a5f8e2e1371418cb2ea2729ede344ae3d0c6c2e10d01c2bd84c1fc940998be1",
-        "pg015_n0037": "64b5bb679fadeb3c6c3efab5dd149d40133ef275e04cddf168a382cae0174b51",
+        "pg015_n0037": "efcac4f28988d6309478a0e7810616561604c14c4d82e67c86f7d486facf6ae0",
         "pg014_n0027": "3856fd510cd9a8922ee717d98c5b493c25bed8e656144807a31e7a6bbf45b95d",
         "pg015_n0015": "726eeef7fb3cbd0e385cbc8f19d8eba53fcf8da5cb4337bdcd8f59a231e067fa",
         "pg015_n0008": "6d8e17e5e825896fe6acbad1eb62aa704cbdf29ffc73292a26b47789568330e4",
@@ -492,8 +492,8 @@
         "pg019_n0030": "af770868d955650a67dc1c389ab90823ff34b8681418a8eddd3722af57455ac0",
         "pg020_n0031": "2185c4b18d950615a49ab8aad60549ffab9509387af2abd5a3d7428df608d962",
         "pg019_n0035": "800b1de671e5a131b8e3f3c6e4b489ce56b1d4ef175a31d765aca2a760dc8cdd",
-        "pg020_n0032": "42afb8e27084d304be87a09ca1eff53dd0f69d6f743ae215758b8b9f2878d9aa",
-        "pg020_n0033": "6cd54ea6b756f6fe2adf877d82554fc1686181a4715319e23f9ab8128576eb62",
+        "pg020_n0032": "3e85a136e7e8a21cf91142caf72929880554ee45ae0ee2317621d9aaa41fd91d",
+        "pg020_n0033": "f5fd3bbc65f265d60841e8ffd4ffd57120f628ebdba7f3d859927f3f6f1664c6",
         "pg019_n0040": "beb7e1b460d6ab9a3e9e75126f01c6597809068ea5402cc08c07da002f1db418",
         "pg019_n0043": "fd386c25d8f5b6f3f5a5fe897c06729c531aac08d86a1a39b29a839f5d880149",
         "pg021_n0011": "fc0973494c92f97dad31f3800caeff9eb4a3d78b5b5bdae84854e9cfd88a384e",
@@ -518,11 +518,11 @@
         "pg020_n0007": "e1c22f6aeff4f6c9d7a08c12e048cf278f1a18aa71574863673cdf5099275891",
         "pg020_n0014": "05da62b8681f80d428c90371f404a7daeac10cd84ebe85f35b00af4b5434e8dc",
         "pg022_n0030": "547c4b372f2714037c8f9b6daada30c95a01d466e84ec2d2a95fab3b938d6ab5",
-        "pg020_n0003": "0520621c642214f2e0962133ccf1c0d608f9b6a821953a1523836a32f0480634",
+        "pg020_n0003": "7660806eebc10e140445ed7d8d870f46abef7ec353591273d0b53259d7fa5ec5",
         "pg020_n0009": "b1f18589b3cf8d9e3c8d7dfb7ef30b936b42f613f1d77b5eb2ea2b3daaaa1210",
         "pg020_n0017": "cfbf15c48cb87adc1a18b0339b0fee236fbaa753608794599159768ea6638a66",
         "pg022_im002": "f6600b53e8a43ed33dbf121d680a1e65abaeab5ca3b851a3b40d4b17a77eab1f",
-        "pg019_n0055": "06db88c96c0183b71f87ee316155fee064d9621c26dc7eb1cbfdbedffcb02881",
+        "pg019_n0055": "64f8fee8fbd4449dee151fde7b2936adf1854c7825ba18beaf754f10b7e86f4e",
         "pg021_im001": "8ea62600484438ceb196cccd07c93f7ec888ace48b979cff37a65e11ba28daa7",
         "pg021_n0017": "5f6bbec822ad18ba6a0368784da3d083a2d1ee7c561be0c96e8d634b69f03640",
         "pg020_n0023": "59174a0f454540b627f4d8dd08415dd964e1b7a6f01a715171377be82388c1f4",
@@ -542,7 +542,7 @@
         "pg024_n0014": "8eb71b758cc1cd9e180fda516b686f1da1f4364ee9d2d7d5c8bbe99a40d977ed",
         "pg022_n0045": "91376953ef7c4992712bb9054d3d222d95d0959003b616210f8a99b75361cb71",
         "pg024_n0016": "88f12a49939e19ff5454d1b151d8fe7ae77d6278544790f375c6f986b35ef0ee",
-        "pg020_n0030": "76f0c72c765c9d0f16ff8584ed6245ba11dcbe8e864edf851af4af3c9aeee6ea",
+        "pg020_n0030": "2cd5e843d627a737067984e6e5645ca516a4a653ada0c22236f37e1b37132593",
         "pg025_n0002": "531e3497d8116e765a4d4397ba5b1b53eaa793726a34b81f50d0cfab19d5fd88",
         "pg020_n0038": "db5a634d191abc276a63621a6c163e2d4420e499ddedee5e16b6ba934bad635c",
         "pg025_n0005": "35e5812dfe05f746b3c122f9b5448a3158ed5e7279fd06ec6b9991d6850d5c26",
@@ -676,7 +676,7 @@
         "pg030_n0028": "f4ef299aa106d873825791c8516fd0a27a71c13c69cc991a22e937918260ece7",
         "pg031_n0006": "50a928beaccb7e4b41d5cc9ae3880cc1b32b31ceed861097dc914b7db837b0ff",
         "pg030_n0019": "b3cc143d59f1a95ec39699a0d6c99306e254571b9e28e00d938dfa8d63ca9f24",
-        "pg031_n0011": "b47a19196849c5431469d3ad927e22fb7cce751e5569b4bea3263602a2a89a8b",
+        "pg031_n0011": "80b7e1464017c9b78d34a897e507d5f0c76716b563e2f059e2310c4fa06a3ae7",
         "pg030_n0032": "b5617b8d6e31b80a95a4b965f1cb1ff7a729ce88ab5667ea3aede3e3d0f4a43d",
         "pg027_n0037": "5f867f7945c50d65ca8af0f60a64856ecde574671cd8a6c3bde21b3a416cc0ea",
         "pg028_n0010": "22feee1b002d95295a80b1fb1609768e57dddaf79dc8a9321d3cadb8a9c871e4",
@@ -893,7 +893,7 @@
         "pg041_n0004": "4941c6165c20af4d567d4446aeaa1a2567009119bffda59270cf1f5d6d8b37db",
         "pg045_n0006": "f3f1fd1d44b3dfc9a87f94669ea91006c89c7e14ead31589ec197fcd21c60773",
         "pg046_n0011": "e1bdf6656cd7f4f1d3a7373877c835f521100ab0296d3be04ba6d8522f27668e",
-        "pg045_n0013": "40c27def66d15eaa30fbff353f651742a892263b191c427602ac8f9e5b289e45",
+        "pg045_n0013": "88ab68a118fd4281c9fbeda2cd4c6483eebe811c3949334db9dda6c766c3a78a",
         "pg040_n0018": "2bc3fa6597eb5765e634f72c7fdda1c9e28af81c075dcd72128e6097104850ea",
         "pg045_im002": "45e17e2d061c56da4b1e9fd95e50dbc19e39054b6c3ce70e2a353562b6e01422",
         "pg045_n0011": "7b50bd2470af1ee1b44534384fafa160291336bf48756fe1c8cc0ba464110417",
@@ -910,7 +910,7 @@
         "pg042_n0016": "4a73670210db7b2dd452a680d1dedcc586f832369f8c62e56cb24ea38a1cfb6b",
         "pg042_n0014": "baa806383d8d11efb5d5cc6286f3dddcee80ac184db1564b89e9441fac37f389",
         "pg047_im001_seg001_v1_crop_v1": "f49c8bfcf741deb51dcdcec7cbcf68fc896a221d31dc687c70d4af2e50032660",
-        "pg045_n0012": "34d2b8383df5c940d29620ff1ae68bcdc640d6e52594b2b00caa502431e078d8",
+        "pg045_n0012": "9de25fed13150d8b40132f0cdb7d1c5ed75afc497de98a737ee2db375b701d0c",
         "pg042_im002_crop_v1": "d0c8892c45a35af819ed900ab3fea405b4e403d205eb799542ad6456c2ad2d6e",
         "pg044_n0002": "3ef3401acaa1716f80edc09ac27e64acc00ad200f7b8a111fd39a4fe26aa2613",
         "pg046_n0006": "63f5e336c359f94f265161c531a7c14b8b8fe0fc40e1e6bf47fe99ecb22ffa2c",
@@ -1010,7 +1010,7 @@
         "pg050_n0018": "f599ec683f3f03bd0d8b5684d3c69ce2f847e0ae81de52b33fb19c8abaec9bf5",
         "pg050_n0010": "f572dc9a481cb5d07a1fb02142ce30ebfbb482aceb29db9de91c37f5865fabd3",
         "pg050_n0019": "91ac1227072b5693a6ba8f0e3c3c2f3da5a0dcd5474e8960a7289c7bb45bd095",
-        "pg053_n0005": "64b5bb679fadeb3c6c3efab5dd149d40133ef275e04cddf168a382cae0174b51",
+        "pg053_n0005": "efcac4f28988d6309478a0e7810616561604c14c4d82e67c86f7d486facf6ae0",
         "pg052_n0019": "1e4c71c179c13af426fa7686c661dc6df010f01b1c578ef05af4aabb6756d702",
         "pg049_n0024": "5b7ade94b72434abcfab64090e88c45f69fc1585bc6cbdfd051363d7282c09a1",
         "pg052_n0022": "fa12c76df41ba71c013ed128f290009312af97872d1d6dc1bca06b6242f090c3",
@@ -2000,7 +2000,7 @@
         "pg102_n0009": "a2aaefdb1b688461fa9cd6e8f575757929829fd0182ce24f10751c61603ca808",
         "pg103_im001": "e98a22c22676bc0c24c998c7c7ca853468242a1d5390b7acc110a2b08dc406e2",
         "pg102_n0012": "5a44622d151d657bcec7d8fdd31a78823d22d2c46684b14d9c92a3eadd183682",
-        "pg102_n0014": "c75c1fd9de36de258eca2c2a93c45d88a0e0c15407e269c3c53ffbbea6b47c14",
+        "pg102_n0014": "c4dd7b6147b6e191378ac152b9e6eedb7acbfde85614bd098e4665a092e911f7",
         "pg102_im001": "365d1fb87f34d739312da6dad986c4dd8bde691bcc1e1aef852e1b072b8ac21c",
         "pg104_n0022": "6516f2e3f67e5523d2d26b2df537ee1d6fec3ea091732b5841c23957d18ee295",
         "pg104_n0017": "5bc7837c128b2eb0eedf6b89ad409ab2458b9455c0762d5775e6f8583331f35b",
@@ -2026,7 +2026,7 @@
         "pg106_n0020": "d0aa52c341c15d585b416632c76ad237ae0df30cf4f5ef52ff1bfb79c626842f",
         "pg105_n0013": "99164dad961e0a920201b881001dd71da92f45e506f5d1d89a81f2e62a5392e5",
         "pg102_n0031": "eef9984b3e84a24801eafed3128f331ce6e3171f2b60903ca50fc5051ddaf045",
-        "pg103_n0019": "2693131b71bc6b1772f732d4e24ba7ae90dec2d93b280b4ebf2488842ef078d3",
+        "pg103_n0019": "0f3dd970492d3f5768d148040fd8950a732574eeccb72b6532304307074af8e2",
         "pg103_n0006": "48f1aa2131ef17fc7d97394f0b272d8556b1436ae82c56272e10a388f69523bc",
         "pg107_n0005": "64b5bb679fadeb3c6c3efab5dd149d40133ef275e04cddf168a382cae0174b51",
         "pg106_n0014": "a3c9ad32e3ffd8ba102f7dcff03ccf28fafb8920d7f74ab9949b5aaa65c658ec",
@@ -2081,7 +2081,7 @@
         "pg105_n0015": "0e3571e4830d8477202710684e579a4f29426fc40622025f03ac450d9824093d",
         "pg106_n0011": "d651a3fb9a2414806d3ef68037b4b2d9ae7826116e600bd8696d1777b1746910",
         "pg106_n0017": "9cfdd53fafb4283e7f637baef36e2d1b00f0dc7153d3713d7acfbd17feec8401",
-        "pg106_n0025": "b8350743fdb99fb8c270c53e7e0b1b44dace3cb9d59641abd383c93c4b675419",
+        "pg106_n0025": "431e21da5698ed28c6c7228c5b2ae5a7f2581488c3e49ac5f53ba76a5d4c1d7a",
         "pg108_n0035": "b8be563970c7142b2c3710b038e5bc25c2c0133f75e8114464337cd1e4b44bdb",
         "pg108_n0038": "88f12a49939e19ff5454d1b151d8fe7ae77d6278544790f375c6f986b35ef0ee",
         "pg106_n0022": "fc1411e1ee6452b2924dbd5888f8ef7d991e0c547f00b8bcdba2d7673d6570f9",
@@ -2148,7 +2148,7 @@
         "pg110_n0053": "44d127d33a6a3c8a6c9f781d58e940db87cefc813779000a5b362b0236e448a7",
         "pg109_n0007": "177784c6c82965e801519da7646041fb3e5f5f9ac5e47daa6da5b865dae0a076",
         "pg108_n0007": "0aa07d4d6c671235bf40ef89f077e8f08b3a28209143bfb86ff916f26c81045e",
-        "pg110_n0006": "1e6750ab4ba3ddb47648268a2d7aa8edd111ab7685f2be8b47f83d575c0f3433",
+        "pg110_n0006": "297e493a13b68f86c0bf2f3659dd542c38cf10e96803a55d7c94acdd9809c769",
         "pg110_n0059": "9e2c3a22ed39f9059085e60ab0ced86134ea8d0fb657215597c055c3c37deaad",
         "pg110_n0051": "81124222c32f337fe0e235666f4b011b5733dffbc1818668f4f18580dce19c61",
         "pg109_n0018": "961e007273895308434bc011fb7e84b66cf98b07d38edf59ed400f19f1dde1a8",
@@ -2236,7 +2236,7 @@
         "pg112_n0041": "9e267940635541401d03c8a5beb0e838932fce75c9d50f2a5f25049d605e55a1",
         "pg111_n0079": "049fd0e372d836683d88cd974b042deeddb9063ddd5b32eafe2a72a444bbd81d",
         "pg111_n0074": "0ba9e6c3274e45cdf9e813ab607d0a1a63886f2be9ae86c6599abb597e099976",
-        "pg112_n0025": "3355918acdadb946e2c9eb1da95ce4c18d553d69e2ae40bdcb2e248df3d11cdc",
+        "pg112_n0025": "a42ad23fcf6953a98083563af0c896aaa9d9f7446369f94c01fd13c6ceec323a",
         "pg111_n0084": "d81fef3208415bd199ac935fb55dc7c2fcb70af1704b657f7231625bed78aa4e",
         "pg111_n0089": "afd9c63aa13229fe6796eab33d547ef3b642e69197737309eef0d9bcbd9f38fd",
         "pg111_n0094": "f4e441c9f47aa25a959c7e2d92f6e3d75ea203a1fe0ffe15fe3df08920edb74f",
@@ -2256,14 +2256,14 @@
         "pg112_n0007": "23716aa014097cf462d1c44535bda3760ef2a065ced200c37e93d7bcc672a414",
         "pg112_n0023": "9e267940635541401d03c8a5beb0e838932fce75c9d50f2a5f25049d605e55a1",
         "pg112_n0027": "84f745d18f36208285d1c279dd0f80d9fadb72b8db9449ba0a47a2478b8e981e",
-        "pg112_n0013": "6fc37c9c46deaf2fdd8a82252c38de2e7c42c1ed664cf0e9e8f6f65deaf4d68f",
+        "pg112_n0013": "3891b8f9d37e9c64e83fd7d379f16638721a1608048769b0fbaafde556d310ef",
         "pg112_n0011": "0b868261652a1c2b66406a804c2a4e875d61e8bd1c9830848f4314a82711535e",
         "pg112_n0033": "84f745d18f36208285d1c279dd0f80d9fadb72b8db9449ba0a47a2478b8e981e",
-        "pg112_n0031": "b80da9e893d57bf49748e6ca18904bbcfd5484b0a3d36952009f5c9685820b1a",
+        "pg112_n0031": "de24b07178783d29f988056b1d32e6c32569c135842eb18a2c2203fa552acc28",
         "gl012": "02bb5379e4c86786de27a0de0687def1273fe4000df55eec50d74b0ab6bbf1b1",
         "gl009_def": "457d95ce2f09e61242e8d88f32697b815a59070699cda23c8058bda6d666d5a8",
-        "pg112_n0019": "459b8c0f3cb3c0427518e426f43c7717606e3d15dc4e3d2e550dd6644041845b",
-        "pg112_n0037": "f864e475e2422c6486179571dc984331e685e523f495ec58b1184f68fbb107a5",
+        "pg112_n0019": "23489cbbfe0b65fa610df1b870b0c9e787ec51dd4a430252f0e4493b14c993fe",
+        "pg112_n0037": "083cc4e0831c649ceb29dec8cb5b58805f6dcd365099487305d4861dd36976d0",
         "gl014": "2e817471383e1955ac190a56d853607af4e413ae363d4a3c0b887b1609e6c9b7",
         "pg112_n0043": "dd09b754c323e8ac92141f1d02685691258fdb2201a221eb4c14b22b00c42910",
         "gl001": "ef38c16735524ca63c9c063cb594639ddc2dab2904c3f4d6efc340f7738c6f22",
@@ -2921,7 +2921,7 @@
         "pg009_n0029_easy_read": "253c31d27b500261f8d2b4fc4a909d04f469d701e0f8fa8b5f32933bb8c599d3",
         "pg010_n0010_easy_read": "02724c00cd43ef14857191000238e144ed005a20ca823c856faea249a5d9a5d8",
         "pg010_n0042_easy_read": "8853f0001c0203b4ec884047365823c02dc1bf068ee183d44df755daeaf54aa0",
-        "pg012_n0033_easy_read": "5ab8b026bb59c1d1f17dc1300de0ef315bf3dda75e9b67c6fdce08aff25534c6",
+        "pg012_n0033_easy_read": "2d2cf9e34f3062e330793dbf176fce724913af516e0c610940aa531848dabf3b",
         "pg012_n0015_easy_read": "a930118b4533a28bfbf0c6bf5338248df1622849d8f3d228b3878d9f818bae7c",
         "pg011_n0012_easy_read": "40e27eee8f2b3de60ab7dcc5614cfc57f5bb4b865fdc5726f2e9c0873c7c9151",
         "pg010_n0038_easy_read": "34c2b26c072855c7c06850f3c7a4e66ee9200e5543f140ff32cc2240313edc29",
@@ -2965,7 +2965,7 @@
         "pg014_n0046_easy_read": "c53ec50e9dfa525df4891c91745a956ed24880d375c13934090fac7df60641f9",
         "pg010_n0034_easy_read": "1d0b089e48bfec7fc45cab88422e33741e6fff81cbb6c6d79e36ee4a74bea3e5",
         "pg012_n0032_easy_read": "7d850ae1b94ea91ce7610293aefbc9af182211a6ce513bca1e8be7bcb9f27eb7",
-        "pg012_n0030_easy_read": "14f224aa692f4623a7bdb1b7c9c9e374539a47880596e2a424eb851e661dc51d",
+        "pg012_n0030_easy_read": "c37d1b6b3d013eea1fb0d8687fab45f21991dad0b202788d63aec95dd64f750b",
         "pg015_n0005_easy_read": "2910ef86aec425dfd18d521953f1258a60f7bea1739607549eab4a149ca0f251",
         "pg013_n0004_easy_read": "87a946663efe5ce24157c33f9e273e5f90f55adaf5b42463c1e9ac88654ab403",
         "pg013_n0006_easy_read": "4e36c201c6eef946691fcef9f733a76c8d207fb17b415208b409637139474671",
@@ -3145,7 +3145,7 @@
         "pg021_n0009_easy_read": "cf3bc1857a63cfc76f7b80e485fff2b92f4691271b304c698b086396e554d4d9",
         "pg018_n0019_easy_read": "bdb8ff8fc8d5938d703478429538fe1ef90b75cd63184cf6f3a63039dd01d708",
         "pg018_n0014_easy_read": "83f619a8c830630f399a8e29d45a354208024358c77eaf9355754e037f208f6b",
-        "pg020_n0003_easy_read": "295ca92a038246cbc042962e7ecb890f318db8c967e67f6f537739d764b97662",
+        "pg020_n0003_easy_read": "7d7e6058fd502ed53ebf44d71144f6edee85ecbd2756d9a36674c7a0aae110e1",
         "pg018_n0025_easy_read": "b6efec60ddc3b23cc6b919cc892f1850a9b0ff27df14fff37bb67405ec73ac8d",
         "pg019_n0017_easy_read": "1aef94bfc3bf17dd1db29cf1c8bc62e04efc8ae4b799f08ed041dc7f2d59b4ba",
         "pg020_n0029_easy_read": "a3d8c938ab78815f08ff7823b884af3bd29e97039f8e7931d97eedfe0a8a81dd",
@@ -3194,7 +3194,7 @@
         "pg023_n0006_easy_read": "303ee63597f4f2b350a45e8129f7e774f310ab767a0f56aa3c28b68aeb4de253",
         "pg023_n0004_easy_read": "24062472884899ee53fea6bb3b2f2dca6bae9a97eaff22557946f62b4d04db11",
         "pg026_n0015_easy_read": "88f12a49939e19ff5454d1b151d8fe7ae77d6278544790f375c6f986b35ef0ee",
-        "pg019_n0055_easy_read": "7f49155733c15c91020a23009e67d7aa5128790893b6bbf3b1fd37983b6b4d9a",
+        "pg019_n0055_easy_read": "46e8b025558612aa4f61c8b77c5ac507492bff340652544f3bb71e55f4005af5",
         "pg020_n0007_easy_read": "1b7f17b1719787c453812df9948af762178361c80148f839af56bf24a79a0326",
         "pg022_n0043_easy_read": "e98553bc07298ce84bf90a37f4be4d83af52570d234b8035c1702834b152c6d7",
         "pg026_n0021_easy_read": "531e3497d8116e765a4d4397ba5b1b53eaa793726a34b81f50d0cfab19d5fd88",
@@ -3212,12 +3212,12 @@
         "pg026_n0040_easy_read": "e56366600e0e8dc4f223ff712f6284b287f7ee1049b895c5eed22440d4c41f70",
         "pg026_n0041_easy_read": "dd0068a276e2770b76b811b97a448f72bb49a4d104893b4f0f0df80b740200d1",
         "pg020_n0026_easy_read": "2b0935a85cba60a831dc68804d416754d127b2023c22f2f7680bc4c5680422d9",
-        "pg020_n0033_easy_read": "3e49c77ce0cf27950ed2059fc6a6c3495a5251ad7767b70cf14a7dff8da17212",
-        "pg020_n0030_easy_read": "f59eee27f4564d388b4c481a9fedb01c74d2df2ce38c4634276a52d3c8a067f5",
+        "pg020_n0033_easy_read": "c56e9ee3d49a4f29ed186f5fcbc114a74bf42e3a890dfea44b8cc3b279bd0691",
+        "pg020_n0030_easy_read": "bb70ec93779c8a9a4552efb0572ffaa65553be06e6c39718fcfb550c887727bb",
         "pg027_n0008_easy_read": "88f12a49939e19ff5454d1b151d8fe7ae77d6278544790f375c6f986b35ef0ee",
         "pg024_n0010_easy_read": "270fd11f264a72a994604fc5c59973162bb6fe451d733371feb915be6febcbd7",
         "pg027_n0011_easy_read": "531e3497d8116e765a4d4397ba5b1b53eaa793726a34b81f50d0cfab19d5fd88",
-        "pg020_n0032_easy_read": "230a97f24e52930f90afc6920e1373036de9f851452e5cde66154453f37edae0",
+        "pg020_n0032_easy_read": "7f7f36b986b18a85b2cb4ed1801b77a96dd7fad2072b858901cff4f92c49d458",
         "pg020_n0037_easy_read": "e8f262dda9c9c31677481c4c7a7c9554cc4186244fdc3c358917cca1399ad4ae",
         "pg027_n0018_easy_read": "64b5bb679fadeb3c6c3efab5dd149d40133ef275e04cddf168a382cae0174b51",
         "pg026_n0029_easy_read": "6a84b9fe66e0a734efdf83bc630fd0628700ff3a4c347727a91ab7b5a4594bc6",
@@ -3293,7 +3293,7 @@
         "pg031_n0003_easy_read": "cdcc46e51bdaf09644c54fe0cc8d9da220ae205067b5af8c7b8c53402823478c",
         "pg031_n0006_easy_read": "50a928beaccb7e4b41d5cc9ae3880cc1b32b31ceed861097dc914b7db837b0ff",
         "pg027_n0012_easy_read": "9be5b54942d08b96195f0233f687bd1de88c312cd3cccab73ddebd56e016e7d0",
-        "pg031_n0011_easy_read": "b47a19196849c5431469d3ad927e22fb7cce751e5569b4bea3263602a2a89a8b",
+        "pg031_n0011_easy_read": "80b7e1464017c9b78d34a897e507d5f0c76716b563e2f059e2310c4fa06a3ae7",
         "pg030_n0018_easy_read": "c34ffc616a0d3e53aaa48c3e15c73e513fc999be7f6e1211ecaf3a33185b5ffc",
         "pg029_n0034_easy_read": "ebabdee5d6bbe9fd0d1c96ff426e837cd56f7ddb226fa88ab0df7793e051f627",
         "pg027_n0025_easy_read": "974f95831bf6926cee5f850bc108fa4827ecfcc2b09e1c2fd671b1c50a8bc83f",
@@ -3496,12 +3496,12 @@
         "pg049_n0027_easy_read": "00309539a6391f2b898b0390aee329d8da70d408499356af8f42e1a98ba9685c",
         "pg044_n0020_easy_read": "e250a0f4b776fb58c264b36f8f6db4e8bed8dd8d93e356ee9cd6df95fbb0b283",
         "pg049_n0032_easy_read": "14bd5bf018f386581ddc758f7549fb2f70fc6e5ae497cfb0c261189e92f0a1c8",
-        "pg045_n0012_easy_read": "2b31f93cda196c15375ff9e17cbc4355411a060e02527f50eff4f070008e652c",
+        "pg045_n0012_easy_read": "2d13900b91037be4a9a968120eca78a35a64bc2650cc6a91b7e72ecb29e2335e",
         "pg049_n0037_easy_read": "88bb99371f0f294ab90850ea3e497b397c2be8326d28410678f64152435d0dec",
         "pg045_n0011_easy_read": "3f9e1a77ffa90888d28db5f18334cb221775d9654ca66dc6320bd4577cdfcb26",
         "pg047_n0006_easy_read": "0c5a0e07c561ae69c434f1f56294ee5b369620d40f565fe79e4b26dc8a193410",
         "pg050_n0009_easy_read": "f23779605a263ffe8e8a1a09fde7bc688570f125881c2a4f2eea39a3c9a092b6",
-        "pg045_n0013_easy_read": "4ff3a3a9afa3032050fd638a51c6af80b530a24e59b0568b04f53b362fa887d7",
+        "pg045_n0013_easy_read": "99c64d4482ade3a209b2ef08ddac85ac355a04f2de922e5b48859cc951ce9602",
         "pg050_n0014_easy_read": "1c5d3d960ef435e4711b449f95efa5c4941fb8fcd81542b3f87de19bcb39ff45",
         "pg048_n0003_easy_read": "aa9a35ab05d7c100eb5569aec7e8efb217cd72f093d4a308edfd81c847bdb238",
         "pg044_n0017_easy_read": "2d1753696a82856b6c9ffc7e53850ac5dee7691cbb14e110c3b672f01e52e6e4",
@@ -4332,7 +4332,7 @@
         "pg102_n0009_easy_read": "a2aaefdb1b688461fa9cd6e8f575757929829fd0182ce24f10751c61603ca808",
         "pg102_n0011_easy_read": "531e3497d8116e765a4d4397ba5b1b53eaa793726a34b81f50d0cfab19d5fd88",
         "pg100_n0020_easy_read": "36e9b9f85821567ccbf0bcaca1ec1c2621b45464e54cd57ab588cf60d52972cf",
-        "pg102_n0014_easy_read": "c75c1fd9de36de258eca2c2a93c45d88a0e0c15407e269c3c53ffbbea6b47c14",
+        "pg102_n0014_easy_read": "c4dd7b6147b6e191378ac152b9e6eedb7acbfde85614bd098e4665a092e911f7",
         "pg097_n0010_easy_read": "4bcd8fd1678a61feb2a064562aa823addd362fc76cd6313773474d68e2da29fa",
         "pg097_n0021_easy_read": "292c6d79a6f5fc3eaa53320ea9c61ce43bd74761dbf33d25c152e9084976fb5d",
         "pg102_n0020_easy_read": "64b5bb679fadeb3c6c3efab5dd149d40133ef275e04cddf168a382cae0174b51",
@@ -4353,7 +4353,7 @@
         "pg098_n0006_easy_read": "2d109b71f26887baf50d00ee971f86842346fa1c14130946ea5f0b67b98258ed",
         "pg103_n0016_easy_read": "531e3497d8116e765a4d4397ba5b1b53eaa793726a34b81f50d0cfab19d5fd88",
         "pg102_n0022_easy_read": "c401b787ec3627b50364a1da6af6d82bf4b9c5434f2cb56970b840fd137dc537",
-        "pg103_n0019_easy_read": "2693131b71bc6b1772f732d4e24ba7ae90dec2d93b280b4ebf2488842ef078d3",
+        "pg103_n0019_easy_read": "0f3dd970492d3f5768d148040fd8950a732574eeccb72b6532304307074af8e2",
         "pg102_n0026_easy_read": "80f68edf33f1e6305cc8103e4d6559a69e4d518bc2dad9f6fe11f6fc9dee3cb0",
         "pg100_n0006_easy_read": "35adac32843e2446befecfd08a3cb1c7ee8f3c1966c8c4294a336901048a1f72",
         "pg103_n0023_easy_read": "ab20c7b6eebdfc5aa913fce69c612c40e49a96eb9603787c452ff73dfbaaa2da",
@@ -4392,7 +4392,7 @@
         "pg098_n0018_easy_read": "7b98cbdbd5c765a83a6d49e1c854b0f5d31066d17d346a67c08a50638685caf6",
         "pg099_n0031_easy_read": "34b6961963cb332b8491c0ea9779ebf1d7aa4c8c85cc3b2b99c1c79e464e737f",
         "pg106_n0020_easy_read": "d0aa52c341c15d585b416632c76ad237ae0df30cf4f5ef52ff1bfb79c626842f",
-        "pg106_n0025_easy_read": "b8350743fdb99fb8c270c53e7e0b1b44dace3cb9d59641abd383c93c4b675419",
+        "pg106_n0025_easy_read": "431e21da5698ed28c6c7228c5b2ae5a7f2581488c3e49ac5f53ba76a5d4c1d7a",
         "pg106_n0026_easy_read": "aba7def4f3d5f4a414ef9d15ed294172ef041b6cd81e2be74c5be84ad2b7caa1",
         "pg107_n0005_easy_read": "64b5bb679fadeb3c6c3efab5dd149d40133ef275e04cddf168a382cae0174b51",
         "pg103_n0017_easy_read": "80af4fa04276c5bc2eab1e9fc4a1603ae15e50649f8507c4338b2e5d4f9d488c",
@@ -4560,10 +4560,10 @@
         "pg108_n0014_easy_read": "fe4bb0d6f2148d866f9b0cad3258440c6a4e78975351b078229803b76746f355",
         "pg111_n0032_easy_read": "53499610dac077c54218a386b201082f50057da2f3a04ad2a08e63c8df58a856",
         "pg111_n0047_easy_read": "75b65ad4b8483be01a990f0a6f6f739c8d8f6069ceaf17523e2372950c84700e",
-        "pg110_n0006_easy_read": "4e515c1d0f7ceeb506a0f453c89184544b16f036549e301a6f20a3043192f5b7",
+        "pg110_n0006_easy_read": "7cbbd120c42f4ab36ebcc752fc92cf83c455a4e8bd22db86c46cf0520e54c237",
         "pg112_n0010_easy_read": "ebd95c56b7f8429ca32de3080e5b778246464ff68b433de09d098fa11efde724",
         "pg111_n0038_easy_read": "8073b4085eaa5b316434ee8fbc649f895f656e5b195e4e99a43afe66cdfd2bb7",
-        "pg112_n0013_easy_read": "6fc37c9c46deaf2fdd8a82252c38de2e7c42c1ed664cf0e9e8f6f65deaf4d68f",
+        "pg112_n0013_easy_read": "3891b8f9d37e9c64e83fd7d379f16638721a1608048769b0fbaafde556d310ef",
         "pg112_n0015_easy_read": "84f745d18f36208285d1c279dd0f80d9fadb72b8db9449ba0a47a2478b8e981e",
         "pg112_n0017_easy_read": "9e267940635541401d03c8a5beb0e838932fce75c9d50f2a5f25049d605e55a1",
         "pg110_n0045_easy_read": "a38c4d4a6b91cc65b33caed61b4084ee5a84c446604487e0d782941497caf893",
@@ -4572,7 +4572,7 @@
         "pg111_n0094_easy_read": "a5b1e065564a5608bfc6d4e4d055ec7ead4c9cb845cea59bc1bf67c7ac37a631",
         "pg112_n0027_easy_read": "84f745d18f36208285d1c279dd0f80d9fadb72b8db9449ba0a47a2478b8e981e",
         "pg112_n0029_easy_read": "9e267940635541401d03c8a5beb0e838932fce75c9d50f2a5f25049d605e55a1",
-        "pg112_n0031_easy_read": "b80da9e893d57bf49748e6ca18904bbcfd5484b0a3d36952009f5c9685820b1a",
+        "pg112_n0031_easy_read": "de24b07178783d29f988056b1d32e6c32569c135842eb18a2c2203fa552acc28",
         "pg112_n0033_easy_read": "84f745d18f36208285d1c279dd0f80d9fadb72b8db9449ba0a47a2478b8e981e",
         "pg112_n0035_easy_read": "9e267940635541401d03c8a5beb0e838932fce75c9d50f2a5f25049d605e55a1",
         "pg108_n0021_easy_read": "2d7688b90672500ea4dcf14573dfab6ad04cf54ee2dabd4aca9bb50cb91349ba",
@@ -4588,7 +4588,7 @@
         "pg112_n0008_easy_read": "fe03007c2cdc3e2afb430bb3fac32e18e2e47cbaba7131f80a50de7fca9e8cc7",
         "pg108_n0042_easy_read": "94f2d43d1bd8b427642e773a026974944f67b72072edb094430a4ea09fc9c3bf",
         "pg111_n0063_easy_read": "4c9b5144746e784ce6fd1103092c2c2ab82d8441534edcbd4c67efdd4a4bdb5d",
-        "pg112_n0019_easy_read": "8ead6f3a13e44b9abfa75c03613fcc35b1ef056e01b0e55616bf1e8717081fd9",
+        "pg112_n0019_easy_read": "291e05e160f4ed57c3cfd8d361f67315c0ab96f071dd990c3c5de32a717c237f",
         "pg112_n0043_easy_read": "ab8ca9e8d6df50374c40694bfe9bdf3abd76a13cbe04f20170f170be8786cdbf",
         "pg108_n0029_easy_read": "ac450cac90e6560db6bbf34d1213a7523ebe674adf4730ac0f87139d1644b8f1",
         "pg109_n0011_easy_read": "675674b68bb60b79322501894061843ee82ff2329c72e75912318502e272c636",
@@ -4607,14 +4607,14 @@
         "pg112_n0050_easy_read": "3bfac7848ec47390f05fd63257ac9c3648e72f501bbde2e83676ade98a1b205e",
         "pg109_n0020_easy_read": "9d6439e1e51a00704fd2dbf46fe31a8b223cf1a54d14f319f99977aa8e02fda2",
         "pg109_n0005_easy_read": "2898e1f3fb4e3ce681526bc9afadbf24983845c070da95624b2735099b1d9668",
-        "pg112_n0037_easy_read": "0de62461b5b45e88014ac46d897aca18daf8fb4c0cbbaa4e0c9e7841772b2d43",
+        "pg112_n0037_easy_read": "881a9ecc2ddc47fb0d0148d1434ca498fff3139c412b6e25392e7c18e071bbfb",
         "pg112_n0003_easy_read": "4bd2748c906394b08ad15cdd4b294eee036cbff7f2e5ed5d75fd1e2d459e6009",
         "pg111_n0084_easy_read": "85f4bfaea7d4fe58adc059010d313b867056ee064e78877c95dc9640504c87fd",
         "pg112_n0004_easy_read": "c281cfcf0aab3baa9ee02c0a79e61d351e1c16b7702e7474bba79406bab0c4c0",
         "pg112_n0006_easy_read": "e957b991a5af81279c9fc35881b152e2982b696ba2dd566d8594c98cfa36484c",
         "pg112_n0044_easy_read": "e367fc3acd9f50fca2ae29d0b3a5f190f754901685fc9316bd80b1a91a150649",
         "pg112_n0045_easy_read": "2fa91de160ef71e309bcc6050a9575b758c6ef564ff654e71bf51b362d9a46cf",
-        "pg112_n0025_easy_read": "514235bbfd68150bdd572f6ae3da555cf9e1069cfb88adaa5108ea23f242cf75",
+        "pg112_n0025_easy_read": "fa1bb02f4574d2b7725395192caca8d51e3855d0ea0cb5cb4f0fe2f511208157",
         "pg112_n0047_easy_read": "4afcc7c82b8065c76dc9f26c5a02bcaf926035f0193eef276d2649570e7f0839",
         "pg112_n0011_easy_read": "150d32fe9e9a12c12f6475be15ba761ed9fb5198cc440308fe8e4e0f9c71e749",
         "pg001_page": "7870251ae5ee395c792866065de2199c31b09822659732c6b351bba40a3744d1",
@@ -4812,7 +4812,41 @@
         "pg110_n0016_easy_read": "2910ef86aec425dfd18d521953f1258a60f7bea1739607549eab4a149ca0f251",
         "pg111_n0046_easy_read": "db407d2583c6d5957d71a3cb971bf6e763b64e86232e6a01ead3bada7b6610a7",
         "pg111_n0088": "2910ef86aec425dfd18d521953f1258a60f7bea1739607549eab4a149ca0f251",
-        "pg110_n0052_easy_read": "2910ef86aec425dfd18d521953f1258a60f7bea1739607549eab4a149ca0f251"
+        "pg110_n0052_easy_read": "2910ef86aec425dfd18d521953f1258a60f7bea1739607549eab4a149ca0f251",
+        "pg012_n0034": "88f12a49939e19ff5454d1b151d8fe7ae77d6278544790f375c6f986b35ef0ee",
+        "pg012_n0035": "531e3497d8116e765a4d4397ba5b1b53eaa793726a34b81f50d0cfab19d5fd88",
+        "pg020_n0042": "88f12a49939e19ff5454d1b151d8fe7ae77d6278544790f375c6f986b35ef0ee",
+        "pg020_n0043": "531e3497d8116e765a4d4397ba5b1b53eaa793726a34b81f50d0cfab19d5fd88",
+        "pg020_n0044": "7c3ba3624ace7383ecc217d1ad1b206e7e109d28fcbb7c0ce8346c364a27129f",
+        "pg045_n0014": "88f12a49939e19ff5454d1b151d8fe7ae77d6278544790f375c6f986b35ef0ee",
+        "pg045_n0015": "531e3497d8116e765a4d4397ba5b1b53eaa793726a34b81f50d0cfab19d5fd88",
+        "pg102_n0013": "531e3497d8116e765a4d4397ba5b1b53eaa793726a34b81f50d0cfab19d5fd88",
+        "pg103_n0018": "7c3ba3624ace7383ecc217d1ad1b206e7e109d28fcbb7c0ce8346c364a27129f",
+        "pg106_n0027": "64b5bb679fadeb3c6c3efab5dd149d40133ef275e04cddf168a382cae0174b51",
+        "pg112_n0051": "64b5bb679fadeb3c6c3efab5dd149d40133ef275e04cddf168a382cae0174b51",
+        "pg112_n0052": "f2d25798e64888df09fe6cf761a4731fda7dcd1f132f8aad47f312622f55746f",
+        "pg112_n0053": "2ffbba87bd3ba773c7bdae10187e98104fbc128b15dc2d833a30aa462456ddbd",
+        "pg112_n0054": "ebd95c56b7f8429ca32de3080e5b778246464ff68b433de09d098fa11efde724",
+        "pg112_n0055": "53c3a029e315033a536316d0f4c668894eea4c27f100b7a8a48dc43cbc8d98b0",
+        "pg012_n0034_easy_read": "88f12a49939e19ff5454d1b151d8fe7ae77d6278544790f375c6f986b35ef0ee",
+        "pg012_n0035_easy_read": "531e3497d8116e765a4d4397ba5b1b53eaa793726a34b81f50d0cfab19d5fd88",
+        "pg020_n0042_easy_read": "88f12a49939e19ff5454d1b151d8fe7ae77d6278544790f375c6f986b35ef0ee",
+        "pg020_n0043_easy_read": "531e3497d8116e765a4d4397ba5b1b53eaa793726a34b81f50d0cfab19d5fd88",
+        "pg020_n0044_easy_read": "7c3ba3624ace7383ecc217d1ad1b206e7e109d28fcbb7c0ce8346c364a27129f",
+        "pg045_n0014_easy_read": "88f12a49939e19ff5454d1b151d8fe7ae77d6278544790f375c6f986b35ef0ee",
+        "pg045_n0015_easy_read": "531e3497d8116e765a4d4397ba5b1b53eaa793726a34b81f50d0cfab19d5fd88",
+        "pg102_n0013_easy_read": "531e3497d8116e765a4d4397ba5b1b53eaa793726a34b81f50d0cfab19d5fd88",
+        "pg103_n0018_easy_read": "7c3ba3624ace7383ecc217d1ad1b206e7e109d28fcbb7c0ce8346c364a27129f",
+        "pg106_n0027_easy_read": "64b5bb679fadeb3c6c3efab5dd149d40133ef275e04cddf168a382cae0174b51",
+        "pg112_n0051_easy_read": "64b5bb679fadeb3c6c3efab5dd149d40133ef275e04cddf168a382cae0174b51",
+        "pg112_n0052_easy_read": "f2d25798e64888df09fe6cf761a4731fda7dcd1f132f8aad47f312622f55746f",
+        "pg112_n0053_easy_read": "2ffbba87bd3ba773c7bdae10187e98104fbc128b15dc2d833a30aa462456ddbd",
+        "pg112_n0054_easy_read": "ebd95c56b7f8429ca32de3080e5b778246464ff68b433de09d098fa11efde724",
+        "pg112_n0055_easy_read": "53c3a029e315033a536316d0f4c668894eea4c27f100b7a8a48dc43cbc8d98b0",
+        "pg019_n0056": "88f12a49939e19ff5454d1b151d8fe7ae77d6278544790f375c6f986b35ef0ee",
+        "pg019_n0056_easy_read": "88f12a49939e19ff5454d1b151d8fe7ae77d6278544790f375c6f986b35ef0ee",
+        "pg020_n0045": "531e3497d8116e765a4d4397ba5b1b53eaa793726a34b81f50d0cfab19d5fd88",
+        "pg020_n0045_easy_read": "531e3497d8116e765a4d4397ba5b1b53eaa793726a34b81f50d0cfab19d5fd88"
       },
       "entrySettings": {
         "pg001_n0003": {
@@ -38437,6 +38471,244 @@
           "format": "wav"
         },
         "pg110_n0052_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg012_n0034": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg012_n0035": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg020_n0042": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg020_n0043": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg020_n0044": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg045_n0014": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg045_n0015": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg102_n0013": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg103_n0018": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg106_n0027": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg112_n0051": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg112_n0052": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg112_n0053": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg112_n0054": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg112_n0055": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg012_n0034_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg012_n0035_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg020_n0042_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg020_n0043_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg020_n0044_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg045_n0014_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg045_n0015_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg102_n0013_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg103_n0018_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg106_n0027_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg112_n0051_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg112_n0052_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg112_n0053_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg112_n0054_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg112_n0055_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg019_n0056": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg019_n0056_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg020_n0045": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg020_n0045_easy_read": {
           "provider": "gemini",
           "model": "gemini-2.5-flash-preview-tts",
           "voice": "Kore",
@@ -72067,6 +72339,244 @@
           "format": "wav"
         },
         "pg110_n0052_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg012_n0034": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg012_n0035": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg020_n0042": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg020_n0043": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg020_n0044": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg045_n0014": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg045_n0015": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg102_n0013": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg103_n0018": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg106_n0027": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg112_n0051": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg112_n0052": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg112_n0053": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg112_n0054": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg112_n0055": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg012_n0034_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg012_n0035_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg020_n0042_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg020_n0043_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg020_n0044_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg045_n0014_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg045_n0015_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg102_n0013_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg103_n0018_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg106_n0027_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg112_n0051_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg112_n0052_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg112_n0053_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg112_n0054_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg112_n0055_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg019_n0056": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg019_n0056_easy_read": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg020_n0045": {
+          "provider": "gemini",
+          "model": "gemini-2.5-flash-preview-tts",
+          "voice": "Kore",
+          "instructions": "Speak clearly, warmly, and naturally in Swahili.",
+          "format": "wav"
+        },
+        "pg020_n0045_easy_read": {
           "provider": "gemini",
           "model": "gemini-2.5-flash-preview-tts",
           "voice": "Kore",

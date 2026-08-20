@@ -76,6 +76,15 @@ const ENGLISH_LETTER_NAMES = {
   q: "Kyuu", r: "Aru", s: "Esu", t: "Tii", u: "Yuu", v: "Vii", w: "Dabuluyu",
   x: "Eksi", y: "Wai", z: "Zedi",
 }
+// "(i)" is textually identical whether it's roman numeral i (=1) or the 9th
+// marker in an (a)-(i) lettered list — the heuristic above always reads it as
+// the roman numeral. These specific units are lettered-list markers, not roman
+// numerals, so force the letter reading here instead.
+const SPEECH_TEXT_OVERRIDES = {
+  pg015_n0037: "Ai", // "(i)" — 9th item in the (a)-(i) list on pg015, not roman numeral 1
+  pg053_n0005: "Ai", // "(i)" — 9th item in the (a)-(j) list on pg053, not roman numeral 1
+}
+
 function normalizeRegenSpeechText(text) {
   const withoutMarkup = stripEmojis(String(text || "")).replace(/<\/?[A-Za-z][^>]*>/g, " ")
   // Fill-in-the-blank placeholders like "[[blank:item-1]]" must never be spoken as
@@ -560,7 +569,7 @@ async function main() {
       if (onlyId && textId !== onlyId) continue
       try {
         const raw = texts[textId]
-        const sanitized = normalizeRegenSpeechText(raw)
+        const sanitized = SPEECH_TEXT_OVERRIDES[textId] ?? normalizeRegenSpeechText(raw)
         const speakable = isSpeakableText(sanitized)
         const excluded = isTtsExcluded(textId, exclude)
         let hasAudio = audios[textId] !== undefined
@@ -737,7 +746,7 @@ async function main() {
                   fileName,
                   whisperKey,
                   getBaseLanguage(lang),
-                  normalizeRegenSpeechText(texts[id]),
+                  SPEECH_TEXT_OVERRIDES[id] ?? normalizeRegenSpeechText(texts[id]),
                 )
                 if (words.length > 0) {
                   timecodes[id] = { timecodes: [null, { word_timestamps: words }] }

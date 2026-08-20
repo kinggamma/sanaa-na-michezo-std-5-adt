@@ -22,7 +22,9 @@
     if (key !== null) {
       var data = INLINE[key];
       var isJson = key.slice(-5) === ".json";
-      var body = isJson ? JSON.stringify(data) : data;
+      // Generated bundles may inline JSON as parsed values or raw JSON text.
+      // Avoid double-encoding raw text, which turns arrays/objects into strings.
+      var body = isJson && typeof data !== "string" ? JSON.stringify(data) : data;
       var ct = isJson ? "application/json" : "text/html; charset=utf-8";
       return Promise.resolve(
         new Response(body, { status: 200, headers: { "Content-Type": ct } })

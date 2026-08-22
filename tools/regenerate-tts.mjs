@@ -97,6 +97,7 @@ const ENGLISH_LETTER_NAMES = {
 const SPEECH_TEXT_OVERRIDES = {
   pg015_n0037: "Ai", // "(i)" — 9th item in the (a)-(i) list on pg015, not roman numeral 1
   pg053_n0005: "Ai", // "(i)" — 9th item in the (a)-(j) list on pg053, not roman numeral 1
+  pg054_n0010: "Ai", // "(i)" — 9th item in the (a)-(k) list on pg053/054, not roman numeral 1
   // Long hyphenated/grouped digit strings (ISBN, phone numbers) get individual
   // digits wrong when read as whole numbers by the TTS. Spell every digit out
   // (the conventional way to read these aloud anyway) to guarantee correctness.

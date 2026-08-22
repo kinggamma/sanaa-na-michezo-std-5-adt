@@ -12,7 +12,7 @@
   "pg002_n0008": "132 Barabara ya Ali Hassan Mwinyi",
   "pg002_n0009": "S.L.P 35094",
   "pg002_n0010": "14112 Dar es Salaam.",
-  "pg002_n0012": "Simu: +255 735 041 168 / 735 041 170",
+  "pg002_n0012": "Simu: +255 735 041 168",
   "pg002_n0013": "Baruapepe: director.general@tie.go.tz",
   "pg002_n0014": "Tovuti: www.tie.go.tz",
   "pg002_n0016": "Haki zote zimehifadhiwa.",
@@ -2834,7 +2834,7 @@
   "pg002_n0008_easy_read": "132 Barabara ya Ali Hassan Mwinyi",
   "pg002_n0009_easy_read": "S.L.P 35094",
   "pg002_n0010_easy_read": "14112 Dar es Salaam.",
-  "pg002_n0012_easy_read": "Simu: +255 735 041 168 / 735 041 170",
+  "pg002_n0012_easy_read": "Simu: +255 735 041 168",
   "pg002_n0013_easy_read": "Baruapepe: director.general@tie.go.tz",
   "pg002_n0014_easy_read": "Tovuti: www.tie.go.tz",
   "pg002_n0016_easy_read": "Haki zote zimehifadhiwa.",
@@ -4896,5 +4896,7 @@
   "pg019_n0056": "(a)",
   "pg019_n0056_easy_read": "(a)",
   "pg020_n0045": "(b)",
-  "pg020_n0045_easy_read": "(b)"
+  "pg020_n0045_easy_read": "(b)",
+  "pg002_n0011b": "/ 735 041 170",
+  "pg002_n0011b_easy_read": "/ 735 041 170"
 }

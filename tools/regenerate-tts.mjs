@@ -66,6 +66,20 @@ const SW_CARDINAL_WORDS = [
   "kumi na moja", "kumi na mbili", "kumi na tatu", "kumi na nne", "kumi na tano",
   "kumi na sita", "kumi na saba", "kumi na nane", "kumi na tisa", "ishirini",
 ]
+const SW_TENS_WORDS = { 2: "ishirini", 3: "thelathini", 4: "arobaini", 5: "hamsini", 6: "sitini", 7: "sabini", 8: "themanini", 9: "tisini" }
+// SW_CARDINAL_WORDS only covers 1-20; ToC page numbers and multi-choice answers
+// can be any 1-2 digit number, so compute compounds (21-99) on the fly instead of
+// silently leaving them unconverted (which was read as a bare digit by the TTS
+// and, for at least "1", hallucinated as an unrelated word).
+function swahiliCardinalWord(n) {
+  if (n >= 1 && n <= 20) return SW_CARDINAL_WORDS[n - 1]
+  if (n >= 21 && n <= 99) {
+    const tens = SW_TENS_WORDS[Math.floor(n / 10)]
+    const ones = n % 10
+    return ones === 0 ? tens : `${tens} na ${SW_CARDINAL_WORDS[ones - 1]}`
+  }
+  return undefined
+}
 const ROMAN_NUMERAL_VALUES = { i: 1, ii: 2, iii: 3, iv: 4, v: 5, vi: 6, vii: 7, viii: 8, ix: 9, x: 10 }
 // Bare single-letter list markers like "(a)" or "f." get sounded out with Swahili
 // vowel/consonant phonetics by the TTS, which reads badly. Spell the ENGLISH
@@ -83,6 +97,18 @@ const ENGLISH_LETTER_NAMES = {
 const SPEECH_TEXT_OVERRIDES = {
   pg015_n0037: "Ai", // "(i)" — 9th item in the (a)-(i) list on pg015, not roman numeral 1
   pg053_n0005: "Ai", // "(i)" — 9th item in the (a)-(j) list on pg053, not roman numeral 1
+  // Long hyphenated/grouped digit strings (ISBN, phone numbers) get individual
+  // digits wrong when read as whole numbers by the TTS. Spell every digit out
+  // (the conventional way to read these aloud anyway) to guarantee correctness.
+  pg002_n0004: "Kitabu hiki kina namba ya utambulisho, ISBN, tisa saba nane tisa tisa moja mbili saba sita tano mbili nne tano.",
+  pg002_n0004_easy_read: "Kitabu hiki kina namba ya utambulisho, ISBN, tisa saba nane tisa tisa moja mbili saba sita tano mbili nne tano.",
+  // This unit used to hold BOTH phone numbers; the model reliably fails (finishReason
+  // "OTHER") past ~10 consecutive digit-words in one call, so the second number was
+  // split into a sibling span (pg002_n0011b) instead of cramming both into one unit.
+  pg002_n0012: "Piga namba mbili tano tano saba tatu tano sifuri nne moja moja sita nane.",
+  pg002_n0012_easy_read: "Piga namba mbili tano tano saba tatu tano sifuri nne moja moja sita nane.",
+  pg002_n0011b: "Namba nyingine ya kupigia ni mbili tano tano saba tatu tano sifuri nne moja moja saba sifuri.",
+  pg002_n0011b_easy_read: "Namba nyingine ya kupigia ni mbili tano tano saba tatu tano sifuri nne moja moja saba sifuri.",
 }
 
 function normalizeRegenSpeechText(text) {
@@ -90,12 +116,15 @@ function normalizeRegenSpeechText(text) {
   // Fill-in-the-blank placeholders like "[[blank:item-1]]" must never be spoken as
   // the literal answer (that would give away the answer key) — read them as a pause.
   const withoutBlanks = withoutMarkup.replace(/\[\[blank:[^\]]+\]\]/g, "…")
-  // A bare list marker like "1." with nothing else has no context for the TTS to
-  // tell it's a list item, so it gets read as a clock time ("saa moja"). Speak the
-  // plain Swahili cardinal word instead (e.g. "1." -> "moja", not the ordinal "kwanza") —
-  // these are numbered exercise/step items ("hatua", "mazoezi", "kazi"), not rankings.
-  const bareOrdinalMatch = /^(\d{1,2})\.$/.exec(withoutBlanks.trim())
-  const ordinalWord = bareOrdinalMatch ? SW_CARDINAL_WORDS[Number(bareOrdinalMatch[1]) - 1] : undefined
+  // A bare list marker like "1." or a bare standalone digit like "1" (e.g. a ToC
+  // page number, or a multiple-choice answer that's just a number) has no context
+  // for the TTS to tell it's a list item, so it gets read as a clock time ("saa
+  // moja") or hallucinated entirely (observed: a lone "1" spoken as "sifa"). Speak
+  // the plain Swahili cardinal word instead (e.g. "1." -> "moja", not the ordinal
+  // "kwanza") — these are numbered exercise/step items ("hatua", "mazoezi", "kazi"),
+  // not rankings.
+  const bareOrdinalMatch = /^(\d{1,2})\.?$/.exec(withoutBlanks.trim())
+  const ordinalWord = bareOrdinalMatch ? swahiliCardinalWord(Number(bareOrdinalMatch[1])) : undefined
   const withoutBareOrdinal = ordinalWord ?? withoutBlanks
   // A bare roman numeral list marker like "(i)" or "v" has no context for the TTS
   // either, and gets mangled trying to sound out "i"/"v" as English letters. Speak
@@ -113,7 +142,7 @@ function normalizeRegenSpeechText(text) {
   // digit marker silently dropped by the TTS instead of being read out loud.
   // Spell that leading number out as a word so it actually gets voiced.
   const leadingNumberMatch = /^(\d{1,2})\.\s+(\S.*)$/s.exec(withoutBareLetter.trim())
-  const leadingNumberWord = leadingNumberMatch ? SW_CARDINAL_WORDS[Number(leadingNumberMatch[1]) - 1] : undefined
+  const leadingNumberWord = leadingNumberMatch ? swahiliCardinalWord(Number(leadingNumberMatch[1])) : undefined
   const withoutLeadingNumber = leadingNumberMatch && leadingNumberWord
     ? `${leadingNumberWord[0].toUpperCase()}${leadingNumberWord.slice(1)}. ${leadingNumberMatch[2]}`
     : withoutBareLetter
